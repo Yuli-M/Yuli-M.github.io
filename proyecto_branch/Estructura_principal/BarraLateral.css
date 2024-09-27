@@ -1,0 +1,61 @@
+/* Configurar barra lateral */
+.content-wrapper {
+    display: flex;
+    flex-grow: 1;
+}
+.sidebar {
+    background-color: #40a8c4; /* Azul claro */
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 15px 15px 0;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.menu-header i {
+    margin-right: 10px;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-items li {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu-items li i {
+    margin-right: 10px;
+}
+
+.menu-items li:hover {
+    background-color: #87CEFA; /* Azul intermedio */
+    border-radius: 5px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+}
+
+.logout i {
+    margin-right: 10px;
+}
