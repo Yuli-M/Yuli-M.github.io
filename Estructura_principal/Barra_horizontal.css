@@ -2,7 +2,7 @@
 .header {
     background-color: #40a8c4;
     padding: 10px;
-    border-radius: 20px 20px; /* Borde redondeado en la esquina superior derecha */
+    /* border-radius: 20px 20px; */
 }
 
 /* Contenedor de la barra superior */
@@ -23,7 +23,7 @@
 .header-container h1 {
     flex-grow: 1; /* Permite que el título ocupe el espacio restante */
     text-align: center; /* Centra el texto */
-    font-family: 'Bitter', serif; /* Tipografía Bitter */
+    font-family: 'Lora', serif; /* Tipografía Bitter */
     font-size: 1.9em; /* Tamaño de fuente */
     margin: 0; /* Elimina el margen predeterminado */
 }
