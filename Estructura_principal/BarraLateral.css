@@ -34,7 +34,7 @@
 .menu-items li {
     display: flex;
     align-items: center;
-    padding: 70px 20px;
+    padding: 40px 20px;
     font-size: 30px;
     cursor: pointer;
 }
@@ -43,10 +43,10 @@
     margin-right: 40px;
 }
 
-.menu-items li:hover {
-    background-color: #87CEFA; /* Azul intermedio */
+/* .menu-items li:hover {
+    background-color: #87CEFA;
     border-radius: 40px;
-}
+} */
 
 .logout {
     display: flex;

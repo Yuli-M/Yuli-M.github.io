@@ -30,6 +30,7 @@
 
 /* Icono de configuración */
 .settings-icon {
+    margin-right: 30px;
     font-size: 1.9em; /* Ajusta el tamaño del icono */
     cursor: pointer;
 }
