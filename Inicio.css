@@ -7,12 +7,15 @@
 
 body {
     font-family: 'Bitter',serif;
+    
+    
 }
 
 .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ocupa toda la altura de la ventana */
+    
 }
 
 /* El contenido del main ocupa el resto del espacio */
