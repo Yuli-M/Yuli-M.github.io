@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'Bitter', serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+
+.form-section img {
+  height: 10%;
+  width: 10%;
+  align-self: center;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 90%;
+  height: 100%;
+}
+
+form {
+  margin: 4% 0 10% 0;
+  width: 60%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+form input {
+  height: 10%;
+  margin: 2% 0 4% 0;
+}
+
+form p {
+  color: #6B7280;
+  font-size: 14px;
+}
+
+#min-length {
+  margin: 0 0 2% 0;
+}
+
+#upper-lower {
+  margin-bottom: 6%;
+}
+
+form button {
+  margin-top: 14%;
+  height: 12%;
+  background-color: black;
+  color: white
+}
+
+form a {
+  margin-top: 5%;
+  align-self: center;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.terms p {
+  align-self: center;
+  display: inline;
+  color: black;
+}
+
+.terms input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.terms label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-right: 10px; 
+  cursor: pointer; 
+  position: relative; 
+}
+
+.terms input[type="checkbox"]:checked + label {
+  background-color: #555; 
+  border-color: #555;
+}
+
+.terms input[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.form-section h1 {
+  font-family: 'Lora', serif;
+  align-self: center;
+  font-size: 50px;
+}
+
+.image-section {
+  width: 50%;
+  height: 100vh;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

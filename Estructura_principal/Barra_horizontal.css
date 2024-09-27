@@ -1,0 +1,36 @@
+/* Barra superior */
+.header {
+    background-color: #40a8c4;
+    padding: 10px;
+    /* border-radius: 20px 20px; */
+}
+
+/* Contenedor de la barra superior */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a ambos lados */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Logo */
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Título centrado */
+.header-container h1 {
+    flex-grow: 1; /* Permite que el título ocupe el espacio restante */
+    text-align: center; /* Centra el texto */
+    font-family: 'Lora', serif; /* Tipografía Bitter */
+    font-size: 1.9em; /* Tamaño de fuente */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+/* Icono de configuración */
+.settings-icon {
+    margin-right: 30px;
+    font-size: 1.9em; /* Ajusta el tamaño del icono */
+    cursor: pointer;
+}
