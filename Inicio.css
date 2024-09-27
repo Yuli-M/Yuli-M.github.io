@@ -17,6 +17,6 @@ body {
 
 /* El contenido del main ocupa el resto del espacio */
 .main-content {
-    padding: 0px;
+
     flex-grow: 1;
 }

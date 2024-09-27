@@ -1,6 +1,6 @@
 /* Barra superior */
 .header {
-    background-color: #b3d3ff;
+    background-color: #40a8c4;
     padding: 10px;
     border-radius: 20px 20px; /* Borde redondeado en la esquina superior derecha */
 }
@@ -14,8 +14,9 @@
 
 /* Logo */
 .logo {
-    width: 50px; /* Ajusta el tamaño del logo */
+    width: 100px; /* Ajusta el tamaño del logo */
     height: auto;
+    border-radius: 20px;
 }
 
 /* Título centrado */
@@ -23,12 +24,12 @@
     flex-grow: 1; /* Permite que el título ocupe el espacio restante */
     text-align: center; /* Centra el texto */
     font-family: 'Bitter', serif; /* Tipografía Bitter */
-    font-size: 1.5em; /* Tamaño de fuente */
+    font-size: 1.9em; /* Tamaño de fuente */
     margin: 0; /* Elimina el margen predeterminado */
 }
 
 /* Icono de configuración */
 .settings-icon {
-    font-size: 1.5em; /* Ajusta el tamaño del icono */
+    font-size: 1.9em; /* Ajusta el tamaño del icono */
     cursor: pointer;
 }
