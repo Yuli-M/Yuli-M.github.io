@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albatros TV</title>
+    <link rel="stylesheet" href="Estructura_principal/Barra_horizontal.css">
+    <link rel="stylesheet" href="Estructura_principal/BarraLateral.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <link rel="stylesheet" href="Estructura_principal/Formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;400;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Barra Lateral y Contenido Principal -->
+        <div class="content-wrapper">
+
+
+            <div class="sidebar">
+                <div class="menu-header">
+                    <i class="fas fa-bars"></i>
+                    <span>Menú</span>
+                </div>
+                <ul class="menu-items">
+                    <li><img src="assets/home.png"alt="Inicio Icono" > Inicio</li>
+                    <li><img src="assets/Formulario.png" alt="Formulario Icono"> Formulario</li>
+                    <li><img src="assets/DataBase.png"alt="DataBase"> Datos</li>
+                </ul>
+                <div class="logout"><img src="assets/user.png" alt=""> Cerrar sesión</div>
+            </div>
+
+            <div class="main-content">
+
+                <div class="div-header">
+                    <header class="header"> 
+                        <div class="header-container">
+                            <!-- Logo de la empresa -->
+                            <img src="assets/logo.jpeg" alt="Logo Albatros TV" class="logo">
+                            <!-- Título centrado -->
+                            <h1>Albatros TV</h1>
+                    
+                            <!-- Icono de configuración a la derecha -->
+                            <div class="settings-icon">⚙️</div>
+                        </div>
+                    </header>
+                </div>
+                
+
+    <div class="form-container">
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="platform">¿Qué plataforma de Streaming usas para ver películas o series?</label>
+                <input type="text" id="platform" name="platform">
+            </div>
+
+            <div class="input-group">
+                <label for="content">¿Cuál crees que tenga mejor contenido?</label>
+                <input type="text" id="content" name="content">
+            </div>
+
+            <div class="input-group">
+                <label for="variety">En tu opinión personal, ¿A qué plataforma le hace falta más variedad?</label>
+                <input type="text" id="variety" name="variety">
+            </div>
+
+            <div class="input-group">
+                <label for="prices">¿Qué plataforma tiene los mejores precios?</label>
+                <input type="text" id="prices" name="prices">
+            </div>
+
+            <div class="input-group">
+                <label for="favorite">¿Tu plataforma de Streaming favorita es?</label>
+                <input type="text" id="favorite" name="favorite">
+            </div>
+
+            <div class="buttons">
+                <button type="button" class="nav-button back">
+                    <img src="back-icon.png" alt="Atrás">
+                </button>
+                <button type="submit" class="submit-button">Enviar</button>
+                <button type="button" class="nav-button forward">
+                    <img src="forward-icon.png" alt="Adelante">
+                </button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

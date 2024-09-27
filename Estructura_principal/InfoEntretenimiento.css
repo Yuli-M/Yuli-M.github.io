@@ -1,0 +1,35 @@
+.title-centered {
+    text-align: center; /* Centra el título de la primera fila */
+}
+
+.large-container {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px 0; /* Espaciado vertical entre contenedores */
+}
+
+.row {
+    display: flex; /* Usa flexbox para alinear elementos */
+    justify-content: center; /* Centra el contenido */
+    margin-bottom: 20px; /* Espaciado inferior entre filas */
+}
+
+.two-columns {
+    flex-wrap: wrap; /* Permite que las columnas se ajusten en varias filas si es necesario */
+}
+
+.column {
+    flex: 1; /* Hace que cada columna ocupe el mismo ancho */
+    margin: 0 10px; /* Espaciado horizontal entre columnas */
+    text-align: center; /* Centra el texto dentro de las columnas */
+}
+.three-row-container{
+    max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Esto centra el contenedor horizontalmente */
+    padding: 150px; /* Espaciado interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para efecto visual */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    align-items: center;            /* Centra verticalmente */
+}
+ 
